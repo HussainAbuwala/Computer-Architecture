@@ -1,0 +1,37 @@
+#!/bin/sh
+
+echo "This script should not be run for prac 5."
+exit
+
+zcat /tmp/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > wave-1024.txt
+zcat /tmp/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > wave-2048.txt
+zcat /tmp/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > wave-4096.txt
+zcat /tmp/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > wave-8192.txt
+zcat /tmp/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > wave-16384.txt
+zcat /tmp/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > wave-32768.txt
+zcat /tmp/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > wave-65536.txt
+	
+zcat /tmp/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > swm-1024.txt
+zcat /tmp/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > swm-2048.txt
+zcat /tmp/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > swm-4096.txt
+zcat /tmp/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > swm-8192.txt
+zcat /tmp/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > swm-16384.txt
+zcat /tmp/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > swm-32768.txt
+zcat /tmp/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > swm-65536.txt
+	
+zcat /tmp/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > su2-1024.txt
+zcat /tmp/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > su2-2048.txt
+zcat /tmp/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > su2-4096.txt
+zcat /tmp/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > su2-8192.txt
+zcat /tmp/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > su2-16384.txt
+zcat /tmp/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > su2-32768.txt
+zcat /tmp/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > su2-65536.txt
+	
+zcat /tmp/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > nasa7-1024.txt
+zcat /tmp/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > nasa7-2048.txt
+zcat /tmp/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > nasa7-4096.txt
+zcat /tmp/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > nasa7-8192.txt
+zcat /tmp/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > nasa7-16384.txt
+zcat /tmp/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > nasa7-32768.txt
+zcat /tmp/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > nasa7-65536.txt
+	

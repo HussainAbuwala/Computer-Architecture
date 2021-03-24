@@ -1,0 +1,33 @@
+#!/bin/sh
+
+gzcat ../PDATS/awk.pdt.gz |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > awk-1024.txt
+gzcat ../PDATS/awk.pdt.gz |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > awk-2048.txt
+gzcat ../PDATS/awk.pdt.gz |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > awk-4096.txt
+gzcat ../PDATS/awk.pdt.gz |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > awk-8192.txt
+gzcat ../PDATS/awk.pdt.gz |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > awk-16384.txt
+gzcat ../PDATS/awk.pdt.gz |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > awk-32768.txt
+gzcat ../PDATS/awk.pdt.gz |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > awk-65536.txt
+	
+zcat ../PDATS/sed.pdt.Z |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > sed-1024.txt
+zcat ../PDATS/sed.pdt.Z |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > sed-2048.txt
+zcat ../PDATS/sed.pdt.Z |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > sed-4096.txt
+zcat ../PDATS/sed.pdt.Z |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > sed-8192.txt
+zcat ../PDATS/sed.pdt.Z |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > sed-16384.txt
+zcat ../PDATS/sed.pdt.Z |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > sed-32768.txt
+zcat ../PDATS/sed.pdt.Z |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > sed-65536.txt
+	
+zcat ../PDATS/tex.pdt.Z |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > tex-1024.txt
+zcat ../PDATS/tex.pdt.Z |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > tex-2048.txt
+zcat ../PDATS/tex.pdt.Z |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > tex-4096.txt
+zcat ../PDATS/tex.pdt.Z |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > tex-8192.txt
+zcat ../PDATS/tex.pdt.Z |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > tex-16384.txt
+zcat ../PDATS/tex.pdt.Z |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > tex-32768.txt
+zcat ../PDATS/tex.pdt.Z |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > tex-65536.txt
+	
+zcat ../PDATS/yacc.pdt.Z |	../bin/acs -a 1 -b 4  -i 1024 -d 1024 > yacc-1024.txt
+zcat ../PDATS/yacc.pdt.Z |	../bin/acs -a 1 -b 4  -i 2048 -d 2048 > yacc-2048.txt
+zcat ../PDATS/yacc.pdt.Z |	../bin/acs -a 1 -b 4  -i 4096 -d 4096 > yacc-4096.txt
+zcat ../PDATS/yacc.pdt.Z |	../bin/acs -a 1 -b 4  -i 8192 -d 8192 > yacc-8192.txt
+zcat ../PDATS/yacc.pdt.Z |	../bin/acs -a 1 -b 4  -i 16384 -d 16384 > yacc-16384.txt
+zcat ../PDATS/yacc.pdt.Z |	../bin/acs -a 1 -b 4  -i 32768 -d 32768 > yacc-32768.txt
+zcat ../PDATS/yacc.pdt.Z |	../bin/acs -a 1 -b 4  -i 65536 -d 65536 > yacc-65536.txt

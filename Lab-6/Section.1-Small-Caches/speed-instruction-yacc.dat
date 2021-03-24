@@ -1,0 +1,20 @@
+
+
+
+Memory Speed Simulator
+
+$Id: memspd.c,v 1.1 2001/05/04 13:20:09 carlo Exp carlo $
+
+(C) 2001, Carlo Kopp, Monash CSSE
+
+Syntax: memspd <datafile> <cache-speed> <main-mem-speed>
+Cache = 10.000000 [ns] Memory = 100.000000 [ns]
+Output data in file speed-instruction-yacc.dat
+1024 0.902956 18.733960
+2048 0.948074 14.673340
+4096 0.973281 12.404710
+8192 0.994135 10.527850
+16384 0.995971 10.362610
+32768 0.998509 10.134190
+65536 0.999376 10.056160
+Lines processed 6
