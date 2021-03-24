@@ -1,0 +1,69 @@
+//THIS IS A JAVASCRIPT CODE
+
+
+//TO RUN THIS FUNCTION YOU NEED JAVASCRIPT COMPILER AND THEN CALL THE FUNCTION base64Decode USING THE
+//INPUT ENCODED STRING.
+
+function base64Decode(textOfFourBytes){
+
+
+  //Store all the base 64 characters
+  
+  var base64chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+  
+  //buffer is empty now
+  var buffer = 0;
+  
+
+  var firstChar = textOfFourBytes[0];
+  var secondChar = textOfFourBytes[1];
+  var thirdChar = textOfFourBytes[2];
+  var fourthChar = textOfFourBytes[3];
+  
+  //get the base64 index of each character
+
+  buffer = base64chars.indexOf(firstChar);
+
+  //make space for first base64 index
+  buffer = buffer << 6;
+  
+  
+  //insert the first index into buffer
+  buffer += base64chars.indexOf(secondChar);
+  
+  
+   //make space for second base64 index
+  buffer = buffer << 6;
+  
+   //insert the second index into buffer
+  buffer += base64chars.indexOf(thirdChar);
+  
+  //make space for third base64 index
+  buffer = buffer << 6;
+  
+   //insert the third index into buffer
+  buffer += base64chars.indexOf(fourthChar);
+  
+  
+  //get the first 8 bits from the right which is the third character by masking
+  var int3 = buffer & 255;
+  
+  //make space for the next 8 bits
+  buffer = buffer >>> 8;
+  
+  //get the first 8 bits from the right which is the second character by masking
+  var int2 = buffer & 255;
+  
+  //make space for the next 8 bits
+  buffer = buffer >>> 8;
+  
+  //get the first 8 bits from the right which is the 1st character by masking
+  var int1 = buffer & 255;
+  
+  //convert the value into ascii using function and return decoded string
+  return String.fromCharCode(int1,int2,int3);
+  
+
+}
+
+
