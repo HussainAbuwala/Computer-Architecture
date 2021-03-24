@@ -1,0 +1,37 @@
+#!/bin/sh
+
+echo "This script should not be run for prac 5."
+exit
+
+zcat ../PDATS/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 131072 -d 131072 > wave-131072.txt
+zcat ../PDATS/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 262144 -d 262144 > wave-262144.txt
+zcat ../PDATS/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 524288 -d 524288 > wave-524288.txt
+zcat ../PDATS/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 1048576 -d 1048576 > wave-1048576.txt
+zcat ../PDATS/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 2097152 -d 2097152 > wave-2097152.txt
+zcat ../PDATS/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 4194304 -d 4194304 > wave-4194304.txt
+zcat ../PDATS/spec039.wave.pdt.Z |	../bin/acs -a 1 -b 4  -i 8388608 -d 8388608 > wave-8388608.txt
+	
+zcat ../PDATS/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 131072 -d 131072 > swm-131072.txt
+zcat ../PDATS/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 262144 -d 262144 > swm-262144.txt
+zcat ../PDATS/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 524288 -d 524288 > swm-524288.txt
+zcat ../PDATS/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 1048576 -d 1048576 > swm-1048576.txt
+zcat ../PDATS/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 2097152 -d 2097152 > swm-2097152.txt
+zcat ../PDATS/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 4194304 -d 4194304 > swm-4194304.txt
+zcat ../PDATS/spec078.swm.pdt.Z |	../bin/acs -a 1 -b 4  -i 8388608 -d 8388608 > swm-8388608.txt
+	
+zcat ../PDATS/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 131072 -d 131072 > su2-131072.txt
+zcat ../PDATS/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 262144 -d 262144 > su2-262144.txt
+zcat ../PDATS/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 524288 -d 524288 > su2-524288.txt
+zcat ../PDATS/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 1048576 -d 1048576 > su2-1048576.txt
+zcat ../PDATS/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 2097152 -d 2097152 > su2-2097152.txt
+zcat ../PDATS/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 4194304 -d 4194304 > su2-4194304.txt
+zcat ../PDATS/spec089.su2.pdt.Z |	../bin/acs -a 1 -b 4  -i 8388608 -d 8388608 > su2-8388608.txt
+	
+zcat ../PDATS/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 131072 -d 131072 > nasa7-131072.txt
+zcat ../PDATS/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 262144 -d 262144 > nasa7-262144.txt
+zcat ../PDATS/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 524288 -d 524288 > nasa7-524288.txt
+zcat ../PDATS/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 1048576 -d 1048576 > nasa7-1048576.txt
+zcat ../PDATS/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 2097152 -d 2097152 > nasa7-2097152.txt
+zcat ../PDATS/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 4194304 -d 4194304 > nasa7-4194304.txt
+zcat ../PDATS/spec097.nasa7.pdt.Z |	../bin/acs -a 1 -b 4  -i 8388608 -d 8388608 > nasa7-8388608.txt
+	

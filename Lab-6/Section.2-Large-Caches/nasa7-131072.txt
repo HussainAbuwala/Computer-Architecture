@@ -1,0 +1,36 @@
+acs-rel-2_5
+
+Cache simulation begins
+
+Cache simulation statistics:
+
+            L1 I Cache
+-------------------------------------
+Cache size           : 131072
+Bytes per line       : 4
+Number sectors       : 1
+Associativity        : 1
+-------------------------------------
+Number of references : 65000000
+Number of castouts   : 0
+% inclusive castouts : 0
+Number of misses     : 3297
+Miss ratio           : 5.07231e-05
+Hit ratio            : 0.999949
+-------------------------------------
+            L1 D Cache
+-------------------------------------
+Cache size           : 131072
+Bytes per line       : 4
+Number sectors       : 1
+Associativity        : 1
+-------------------------------------
+Number of references : 34731796
+Number of castouts   : 863444
+% inclusive castouts : 0
+Number of misses     : 1998886
+Miss ratio           : 0.057552
+Hit ratio            : 0.942448
+-------------------------------------
+
+Cache simulation ends
